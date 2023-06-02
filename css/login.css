@@ -1,0 +1,55 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-color: #FAF0DC;
+  }
+
+.box-login {
+    width: 300px;
+    min-height: 200px;
+    background-color: #0B4141;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+h1{
+text-align: center;
+color: #FAF0DC;
+}
+#bg-login {
+  display:flex;
+  height: 100vh;
+  justify-content: left;
+  align-items: left;
+}
+
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label{
+  color: #FAF0DC;
+}
+
+.input-control {
+  color: #0B4141;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 8px 15px;
+  background-color: #FF6864;
+  color: #0B4141;
+  border:none;
+  cursor: pointer;
+}
