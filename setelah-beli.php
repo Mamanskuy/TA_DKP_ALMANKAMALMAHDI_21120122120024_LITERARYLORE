@@ -39,10 +39,16 @@ if (isset($_SESSION['harga']) && isset($_SESSION['totalHarga'])) {
     </nav>
 
     <div class="container">
-        <h3>Harga Buku: Rp <?php echo number_format($harga, 0, ',', '.'); ?> <br><br> Total Pembayaran: Rp <?php echo number_format($totalHarga, 0, ',', '.'); ?></h3>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h3>Harga Buku: Rp <?php echo number_format($harga, 0, ',', '.'); ?> 
+        <br><br> Total Pembayaran: Rp <?php echo number_format($totalHarga, 0, ',', '.'); ?> 
+        <br><br>  konfirmasikan pembayaran ke 082xxxxxxxxx</h3>
     </div>
-
+    <div class="container">
+    <form method="POST" action="produk.php">
+        <input type="submit" value="Kembali" class="btn">
+    </form>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer>
         <p>LiteraryLore Bookstore</p>
     </footer>
