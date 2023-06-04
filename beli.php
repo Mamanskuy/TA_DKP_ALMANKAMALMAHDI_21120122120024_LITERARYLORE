@@ -44,7 +44,7 @@ if (isset($_GET['harga'])) {
         <form method="POST" action="">
             <label for="jumlah">Jumlah:</label>
             <input type="number" name="jumlah" id="nama" required><br><br>
-            <input type="submit" value="beli" class="btn">
+            <input type="submit" value="Submit" class="btn">
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </form>
     </div>
